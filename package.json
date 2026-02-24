@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sst dev",
+    "sst": "sst"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws/durable-execution-sdk-js": "^1.0.2",
+    "@aws/durable-execution-sdk-js-testing": "^1.1.1",
+    "aws-amplify": "^6.16.2",
+    "express": "^5.2.1",
+    "open": "^11.0.0",
+    "sst": "3.19.3",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@pulumi/pulumi": "^3.223.0",
+    "@types/aws-lambda": "8.10.160",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
