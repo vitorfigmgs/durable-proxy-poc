@@ -18,6 +18,6 @@ export const handler = withDurableDevExecution(
     });
     const callbackData = await callbackPromise;
 
-    return JSON.parse(callbackData);
+    return JSON.parse(callbackData ?? "null");
   },
 );
